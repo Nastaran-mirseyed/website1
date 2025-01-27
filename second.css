@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: rgba(128, 255, 0, 0.799);
+    position: sticky;
+    top: 0;
+    height: 50px;
+    
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    padding-top: 10px;
+}
+img {
+    width: 50px;
+    height: 50px;
+    margin: 60px;
+}
+.section1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.one {
+    background-color: darkgreen;
+    border: 5px solid black;
+    border-radius: 20px;
+}
+.two {
+    background-color: darkgreen;
+    border: 5px solid black;
+    border-radius: 20px;
+}
+.three {
+    background-color: darkgreen;
+    border: 5px solid black;
+    border-radius: 20px;
+}
+.four {
+    background-color: darkgreen;
+    border: 5px solid black;
+    border-radius: 20px;
+}
+.five {
+    background-color: darkgreen;
+    border: 5px solid black;
+    border-radius: 20px;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 100px;
+}
+.anchor {
+    background-color: darkolivegreen;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+    margin: auto 60px;
+}
+.section2 {
+    border: solid 10px gold;
+    border-radius: 15px;
+    margin: 50px 10px;
+}
+h1 {
+    text-align: center;
+}
+.para3 {
+    text-align: center;
+    padding: 50px;
+}
