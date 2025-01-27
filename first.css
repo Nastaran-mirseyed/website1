@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: rgba(222, 184, 135, 0.788);
+    position: sticky;
+    top: 0;
+    height: 50px;
+    
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    padding-top: 10px;
+}
+.section1 {
+    border: 5px solid brown;
+    border-radius: 10px;
+    margin: 200px 50px;
+}
+.heading {
+    text-align: center;
+}
+.para {
+    text-align: center;
+}
+.section2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+} 
+.card1 {
+    background-color: chocolate;
+    width: 200px;
+    height: 300px;
+    border: 10px solid crimson;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+.card2 {
+    background-color: chocolate;
+    width: 200px;
+    height: 300px;
+    border: 10px solid crimson;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+.card3 {
+    background-color: chocolate;
+    width: 200px;
+    height: 300px;
+    border: 10px solid crimson;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+.card4 {
+    background-color: chocolate;
+    width: 200px;
+    height: 300px;
+    border: 10px solid crimson;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+.button {
+    border: 2px solid crimson;
+    border-radius: 10px;
+    width: 40px;
+    text-align: center;
+    margin: auto 70px;
+}
+h2 {
+    text-align: center;
+    margin-top: 30px;
+}
+.para2 {
+    margin: 50px;
+    font-size: 13px;
+    text-align: center;
+}
